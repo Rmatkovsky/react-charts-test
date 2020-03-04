@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "jsx": "react",
+        "target": "es2018",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./",
+        "paths": {
+            "app-config": ["./config/index.js"],
+            "app-routes": ["./config/routes.js"],
+            "actions/*": ["src/actions/*"],
+            "components/*": ["src/components/*"],
+            "constants/*": ["src/constants/*"],
+            "helpers/*": ["src/helpers/*"],
+            "pages/*": ["src/pages/*"],
+            "reducers/*": ["src/reducers/*"],
+            "selectors/*": ["src/selectors/*"],
+            "services/*": ["src/services/*"],
+            "store/*": ["src/store/*"],
+            "utils/*": ["src/utils/*"]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "build"
+    ],
+    "typingOptions": {
+        "enableAutoDiscovery": true
+    }
+}

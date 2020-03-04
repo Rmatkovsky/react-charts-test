@@ -1,0 +1,20 @@
+@import '../../root/sass/variables';
+
+.table {
+  font-size: $font-globalSize;
+  width: 100%;
+
+  th {
+    background-color: $color-lightGray;
+  }
+
+  tr, th, td {
+    border: $borderTable;
+  }
+
+  tr {
+    &:nth-child(even) {
+      background-color: $color-overGray;
+    }
+  }
+}
